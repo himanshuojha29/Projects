@@ -28,7 +28,7 @@ export default function Dashboard() {
         ${open ? "translate-x-0" : "-translate-x-full"}`}
       >
         <div className="flex items-center justify-between px-6 py-4 border-b">
-          <h1 className="text-xl font-bold text-blue-600">User Dashboard</h1>
+          <h1 className="text-xl font-bold text-blue-600">Admin Dashboard</h1>
           <button className="md:hidden" onClick={() => setOpen(false)}>
             <X className="h-6 w-6 text-gray-600" />
           </button>
